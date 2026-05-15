@@ -72,3 +72,39 @@ The database stores:
 Python libraries used:
 - SQLAlchemy
 - psycopg2
+
+## Sentiment Analysis
+
+Sentiment analysis was performed using:
+- DistilBERT transformer model
+- Hugging Face transformers pipeline
+
+Output labels:
+- positive
+- negative
+- neutral
+
+---
+
+## Thematic Analysis
+
+Themes were extracted using:
+- TF-IDF keyword extraction
+- Rule-based theme classification
+
+Main themes:
+- Account Access Issues
+- Transaction Performance
+- UI & User Experience
+- Customer Support
+- Feature Requests
+
+---
+
+## Visualizations
+
+Generated plots include:
+- sentiment distribution
+- rating distribution
+- theme frequency
+- negative complaint analysis
