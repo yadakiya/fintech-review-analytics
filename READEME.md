@@ -53,3 +53,22 @@ The preprocessing pipeline includes:
 - PostgreSQL
 - Matplotlib
 - Seaborn
+## PostgreSQL Database
+
+Database Name:
+- bank_reviews
+
+Tables:
+- banks
+- reviews
+
+The database stores:
+- review text
+- ratings
+- sentiment analysis
+- themes
+- source information
+
+Python libraries used:
+- SQLAlchemy
+- psycopg2
